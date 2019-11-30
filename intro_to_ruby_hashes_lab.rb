@@ -36,6 +36,7 @@ def update_counting_hash(hash, key)
   end
   elsif key == nil
     key += 1
+    return hash
   end
 
   # given a hash an a key as parameters, return an updated hash
