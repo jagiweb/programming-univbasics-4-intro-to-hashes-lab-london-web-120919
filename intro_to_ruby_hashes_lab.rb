@@ -16,6 +16,7 @@ end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
+  :i_am_an_integer.object_id
 end
 
 def my_hash_creator(key, value)
